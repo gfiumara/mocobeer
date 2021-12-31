@@ -41,7 +41,7 @@ header = '''<!doctype html>
 	</head>
 	<body>
 		<h1>Beer in Montgomery County, Maryland</h1>
-		<div class=\"center\"><a href=\"https://thinkmoco.com/made-in-moco/\"><img src=\"drinklocal_mocomade.png\" srcset=\"logos/drinklocal_mocomade.png 1x, logos/drinklocal_mocomade@2x.png 2x\" alt=\"Drink Local. Moco Made.\" title=\"#mocomade\"></a></div>
+		<div class="center"><a href="https://thinkmoco.com/made-in-moco/"><img src="drinklocal_mocomade.png" srcset="logos/drinklocal_mocomade.png 1x, logos/drinklocal_mocomade@2x.png 2x" alt="Drink Local. Moco Made." title="#mocomade"></a></div>
 '''
 
 google_map = '''		<section>
@@ -99,7 +99,7 @@ def separator(counter):
 	if counter == 0:
 		return ""
 
-	return "<span class=\"separator\"> | </span>"
+	return '<span class="separator"> | </span>'
 
 def phone_format(n):
 	str_n = str(n)
@@ -189,7 +189,7 @@ if __name__ == '__main__':
 	args = parse_arguments()
 
 	html = header
-	begin_section = lambda slug, caption : f"\t<section>\n\t\t<h2 id=\"{slug}\">{caption}</h2>\n\t\t<dl>\n"
+	begin_section = lambda slug, caption : f'\t<section>\n\t\t<h2 id="{slug}">{caption}</h2>\n\t\t<dl>\n'
 	end_section = "\t\t</dl>\n\t</section>\n"
 
 	with open(args.input_file) as file:
