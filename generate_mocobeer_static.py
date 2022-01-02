@@ -22,14 +22,15 @@ header = '''<!doctype html>
 			}
 
 			body { padding:15px; background: var(--body-bg); color: var(--body-color); }
-			h1, h2 { text-align:center; }
-			.center { text-align:center; }
+			h1, h2, .center { text-align:center; }
 			.store::before { content:"\\1F6D2 "; }
 			.map::before { content:"\\1F4CD "; }
 			.phone::before { content:"\\260E\\200D\\FE0F "; }
 			.website::before { content:"\\1F5A5 "; }
+			.food::before { content:"\\1F37D "; }
+			.on_premise::before { content:"\\1F37B "; }
 			.social img { height: 2ex; }
-			.closed { color:red; }
+			.closed, .no { color:red; }
 			.in_planning { color:forestgreen; }
 			.closed { color:gray; }
 			.separator { color:var(--footer-color); }
@@ -122,6 +123,7 @@ def html_for_location(location):
 	location_keys = ["address", "phone_number"]
 	social_keys = ["twitter_handle", "facebook_url", "instagram_handle", "yelp_url", "trip_advisor_url"]
 	beer_keys = ["untappd_url", "beer_advocate_url", "rate_beer_url", "brewery_db_url"]
+	food_keys = ["food", "drink_on_premise"]
 
 	s = f'{base_tab}<dt id="{key("slug")}">'
 	if key("open_status") is not None and key("open_status").lower() != "open":
@@ -176,6 +178,21 @@ def html_for_location(location):
 	if key("store_url") is not None:
 		i, s = begin_section(i, s)
 		i, s = add_field(i, s, f'<a href="{key("store_url")}" class="store">Online Store</a>')
+		i, s = end_section(i, s)
+
+	# Food, etc.
+	if contains_keys(location, food_keys):
+		i, s = begin_section(i, s)
+		if key("food") is not None:
+			if key("food"):
+				i, s = add_field(i, s, f'<span class="food">Always serves food</span>')
+			else:
+				i, s = add_field(i, s, f'<span class="no food">No food service</span>')
+		if key("drink_on_premise") is not None:
+			if key("drink_on_premise"):
+				i, s = add_field(i, s, f'<span class="on_premise">Drink on premise</span>')
+			else:
+				i, s = add_field(i, s, f'<span class="no on_premise">No drinking on premise</span>')
 		i, s = end_section(i, s)
 
 	if key("notes") is not None and len(key("notes")) > 0:
