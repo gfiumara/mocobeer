@@ -30,6 +30,8 @@ header = '''<!doctype html>
 			.website::before { content:"\\1F5A5 "; }
 			.social img { height: 2ex; }
 			.closed { color:red; }
+			.in_planning { color:forestgreen; }
+			.closed { color:gray; }
 			.separator { color:var(--footer-color); }
 			footer { color:var(--footer-color); text-align:center; font-size:8pt; }
 			footer a { color:var(--footer-color); }
@@ -123,7 +125,12 @@ def html_for_location(location):
 
 	s = f'{base_tab}<dt id="{key("slug")}">'
 	if key("open_status") is not None and key("open_status").lower() != "open":
-		s += f' <span class="closed">{key("open_status")}: </span>'
+		if "planning" in key("open_status").lower():
+			s += f' <span class="in_planning">{key("open_status")}: </span>'
+		elif "close" in key("open_status").lower():
+			s += f' <span class="closed">{key("open_status")}: </span>'
+		else:
+			s += f' <span class="status">{key("open_status")}: </span>'
 	s += f'{key("name")}</dt>\n{base_tab}<dd>\n{base_tab}\t<ul>'
 
 	# Address and phone number
