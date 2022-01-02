@@ -183,26 +183,35 @@ def html_for_location(location):
 	s += f"{base_tab}\t</ul>\n{base_tab}</dd>\n"
 	return s
 
+def html_for_section(location_type, section_title, locations):
+	begin_section = lambda slug, caption : f'\t<section>\n\t\t<h2 id="{location_type}">{caption}</h2>\n\t\t<dl>\n'
+	end_section = "\t\t</dl>\n\t</section>\n"
+
+	s = begin_section(location_type, section_title)
+	for location in locations:
+		check_required_location_keys(location)
+		if not location_type in location["types"]:
+			continue
+		s += html_for_location(location)
+	s += end_section
+
+	return s
+
 ################################################################################
 
 if __name__ == '__main__':
 	args = parse_arguments()
 
 	html = header
-	begin_section = lambda slug, caption : f'\t<section>\n\t\t<h2 id="{slug}">{caption}</h2>\n\t\t<dl>\n'
-	end_section = "\t\t</dl>\n\t</section>\n"
+
 
 	with open(args.input_file) as file:
 		locations = json.load(file)
 
 	# Craft breweries
-	html += begin_section("craft", "Independent Craft Breweries")
-	for location in locations:
-		check_required_location_keys(location)
-		if not "craft_brewery" in location["types"]:
-			continue
-		html += html_for_location(location)
-	html += end_section
+	html += html_for_section(location_type = "craft_brewery",
+	    section_title = "Independent Craft Breweries",
+	    locations = locations)
 
 	html += google_map
 	html += footer
