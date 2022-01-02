@@ -221,6 +221,16 @@ if __name__ == '__main__':
 	    section_title = "Independent Craft Breweries",
 	    locations = locations)
 
+	# Chain breweries
+	html += html_for_section(location_type = "chain_brewery",
+	    section_title = "Chain Breweries",
+	    locations = locations)
+
+	# Craft breweries in planning
+	html += html_for_section(location_type = "craft_brewery_in_planning",
+	    section_title = "Independent Craft Breweries Opening Soon",
+	    locations = locations)
+
 	html += google_map
 	html += footer
 
