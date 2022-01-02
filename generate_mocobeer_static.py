@@ -248,6 +248,21 @@ if __name__ == '__main__':
 	    section_title = "Independent Craft Breweries Opening Soon",
 	    locations = locations)
 
+	# Bottle shops
+	html += html_for_section(location_type = "bottle_shop",
+	    section_title = "Notable Bottle Shops",
+	    locations = locations)
+
+	# Notable bars
+	html += html_for_section(location_type = "bar",
+	    section_title = "Notable Bars",
+	    locations = locations)
+
+	# Notable restaurants
+	html += html_for_section(location_type = "restaurant",
+	    section_title = "Notable Restaurants",
+	    locations = locations)
+
 	html += google_map
 	html += footer
 
