@@ -1,0 +1,23 @@
+	{
+		"name": "",
+		"google_maps_url": "",
+		"address": "",
+		"phone_number": ,
+		"slug": "",
+		"website": "",
+		"twitter_handle": "",
+		"facebook_url": "",
+		"instagram_handle": "",
+		"yelp_url": "",
+		"trip_advisor_url": "",
+		"untappd_url": "",
+		"beer_advocate_url": "",
+		"ratebeer_url": "",
+		"brewerydb_url": "",
+		"types": ["craft_brewery"],
+		"store_url": "",
+		"open_status": "open",
+		"food": false,
+		"drink_on_premise", true,
+		"notes": []
+	}
