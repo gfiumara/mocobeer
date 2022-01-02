@@ -208,6 +208,9 @@ if __name__ == '__main__':
 	with open(args.input_file) as file:
 		locations = json.load(file)
 
+	# Sort by name
+	locations.sort(key = lambda x : x["name"])
+
 	# Craft breweries
 	html += html_for_section(location_type = "craft_brewery",
 	    section_title = "Independent Craft Breweries",
