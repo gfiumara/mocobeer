@@ -34,8 +34,6 @@ header = '''<!doctype html>
 			footer { color:var(--footer-color); text-align:center; font-size:8pt; }
 			footer a { color:var(--footer-color); }
 			section { padding-top: 2ex; }
-
-			.invert imge
 		</style>
 		<title>Beer in Montgomery County, Maryland</title>
 	</head>
