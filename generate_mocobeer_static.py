@@ -45,7 +45,7 @@ header = '''<!doctype html>
 '''
 
 google_map = '''		<section>
-			<h2>Notable Restaurants, Bottle Shops, and Bars</h2>
+			<h2>Google Map of Locations</h2>
 			<iframe class="d-block mx-auto" src="https://www.google.com/maps/d/u/1/embed?mid=1HcsTMRMiEsDwHCUf9J7_T5jXwnAVGaIZ&z=10&ll=39.14789573526428,-77.2005358102505" width="640" height="480"></iframe>
 		</section>
 '''
