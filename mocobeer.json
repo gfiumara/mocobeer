@@ -364,5 +364,16 @@
 		"types": ["restaurant"],
 		"store_url": "https://order.tbdine.com/pickup/15195",
 		"open_status": "open"
+	},
+	{
+		"name": "Black Viking Brewing",
+		"slug": "black_viking",
+		"website": "https://blackvikingbrewing.com",
+		"instagram_handle": "blackvikingbrewing",
+		"untappd_url": "https://untappd.com/w/black-viking-brewing/510434",
+		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/62146/",
+		"types": ["craft_brewery"],
+		"open_status": "Distribution Only",
+		"drink_on_premise": false
 	}
 ]
