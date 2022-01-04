@@ -42,7 +42,7 @@ header = '''<!doctype html>
 	</head>
 	<body>
 		<h1>Beer in Montgomery County, Maryland</h1>
-		<div class="center"><a href="https://thinkmoco.com/made-in-moco/"><img src="drinklocal_mocomade.png" srcset="logos/drinklocal_mocomade.png 1x, logos/drinklocal_mocomade@2x.png 2x" alt="Drink Local. Moco Made." title="#mocomade"></a></div>
+		<div class="center"><a href="https://thinkmoco.com/made-in-moco/"><img src="logos/drinklocal_mocomade.png" srcset="logos/drinklocal_mocomade.png 1x, logos/drinklocal_mocomade@2x.png 2x" alt="Drink Local. Moco Made." title="#mocomade"></a></div>
 '''
 
 google_map = '''		<section>
@@ -167,11 +167,11 @@ def html_for_location(location):
 		if key("untappd_url") is not None:
 			i, s = add_field(i, s, f'<a href="{key("untappd_url")}" class="social untappd"><img src="logos/untappd.svg" alt="Untappd Logo" /> Untappd</a>')
 		if key("beer_advocate_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("beer_advocate_url")}" class="social beer_advocate"><img src="beer_advocate.png" srcset="logos/beer_advocate.png 1x, logos/beer_advocate@2x.png 2x" alt="Beer Advocate Logo" /> Beer Advocate</a>')
+			i, s = add_field(i, s, f'<a href="{key("beer_advocate_url")}" class="social beer_advocate"><img src="logos/beer_advocate.png" srcset="logos/beer_advocate.png 1x, logos/beer_advocate@2x.png 2x" alt="Beer Advocate Logo" /> Beer Advocate</a>')
 		if key("ratebeer_url") is not None:
 			i, s = add_field(i, s, f'<a href="{key("ratebeer_url")}" class="social ratebeer"><img src="logos/ratebeer.svg" alt="RateBeer Logo" /> RateBeer</a>')
 		if key("brewerydb_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("brewerydb_url")}" class="social brewerydb"><img src="brewerydb.png" srcset="logos/brewerydb.png 1x, logos/brewerydb@2x.png 2x" alt="BreweryDB Logo" /> BreweryDB</a>')
+			i, s = add_field(i, s, f'<a href="{key("brewerydb_url")}" class="social brewerydb"><img src="logos/brewerydb.png" srcset="logos/brewerydb.png 1x, logos/brewerydb@2x.png 2x" alt="BreweryDB Logo" /> BreweryDB</a>')
 		i, s = end_section(i, s)
 
 	# Online store
