@@ -391,5 +391,21 @@
 		"open_status": "open",
 		"food": true,
 		"drink_on_premise": true
+	},
+	{
+		"name": "Babycat Brewery",
+		"google_maps_url": "https://goo.gl/maps/TqBnb8rhx975eu649",
+		"address": "10241 Kensington Pkwy, Kensington, MD 20895",
+		"phone_number": 3013028892,
+		"slug": "babycat",
+		"website": "https://www.babycatbrewery.com",
+		"facebook_url": "https://www.facebook.com/babycatbrewery",
+		"instagram_handle": "babycatbrewery",
+		"untappd_url": "https://untappd.com/Babycat_Brewery",
+		"types": ["craft_brewery"],
+		"open_status": "open",
+		"food": true,
+		"drink_on_premise": true,
+		"pets": "outside"
 	}
 ]
