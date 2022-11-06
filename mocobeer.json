@@ -270,16 +270,6 @@
 		"open_status": "open"
 	},
 	{
-		"name": "Quiet Scheme Brewing Company",
-		"slug": "quiet_scheme",
-		"website": "https://quietscheme.com",
-		"twitter_handle": "quietscheme",
-		"facebook_url": "https://www.facebook.com/quietscheme",
-		"instagram_handle": "quietscheme",
-		"types": ["craft_brewery_in_planning"],
-		"open_status": "In Planning"
-	},
-	{
 		"name": "Selva Brewing Company",
 		"google_maps_url": "https://goo.gl/maps/rHqVmo1fLV42",
 		"address": "227 E Diamond Ave, Gaithersburg",
