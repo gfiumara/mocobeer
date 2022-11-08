@@ -18,7 +18,8 @@
 		"types": ["craft_brewery"],
 		"store_url": "https://shop.7locksbrewing.com/",
 		"open_status": "open",
-		"notes": []
+		"notes": [],
+		"pets": "Dogs allowed on Sundays"
 	},
 	{
 		"name": "Astro Lab Brewing",
@@ -35,7 +36,8 @@
 		"ratebeer_url": "https://www.ratebeer.com/p/astro-lab-brewing/83131/",
 		"types": ["craft_brewery"],
 		"store_url": "https://www.toasttab.com/astrolabbrewing",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Dogs allowed outside only"
 	},
 	{
 		"name": "Bright Spot Beer Company",
@@ -52,7 +54,8 @@
 		"notes": [
 			"Subsidiary of <a href=\"#true_respite\">True Respite Beer Company</a>.",
 			"Formerly <em>Brawling Bear Brewing</em>."
-		]
+		],
+		"pets": "No policy listed"
 	},
 	{
 		"name": "Brookeville Beer Farm",
@@ -73,7 +76,8 @@
 		"types": ["craft_brewery"],
 		"store_url": "https://order.brookevillebeerfarm.com/",
 		"open_status": "open",
-		"food": true
+		"food": true,
+		"pets": "Dogs allowed. Must be on leash"
 	},
 	{
 		"name": "Clear Skies Meadery",
@@ -88,7 +92,8 @@
 		"untappd_url": "https://untappd.com/ClearSkiesMeadery",
 		"types": ["craft_brewery"],
 		"store_url": "https://commerce.arryved.com/location/BSiktciF",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "No policy listed"
 	},
 	{
 		"name": "Doc Waters Cidery",
@@ -101,7 +106,8 @@
 		"instagram_handle": "docwaterscidery",
 		"yelp_url": "https://www.yelp.com/biz/doc-waters-cidery-germantown-3",
 		"types": ["craft_brewery"],
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Dogs allowed. Must be on leash"
 	},
 	{
 		"name": "Denizens Brewing Co.",
@@ -122,7 +128,8 @@
 		"types": ["craft_brewery"],
 		"store_url": "https://www.denizensbrewingco.com/beermobile/",
 		"open_status": "open",
-		"food": true
+		"food": true,
+		"pets": "Dogs allowed outside only"
 	},
 	{
 		"name": "Elder Pine Brewing and Blending",
@@ -140,7 +147,8 @@
 		"ratebeer_url": "https://www.ratebeer.com/brewers/elder-pine-brewing-and-blending-co/38062/",
 		"types": ["craft_brewery"],
 		"store_url": "https://elderpine.square.site/",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Pets allowed"
 	},
 	{
 		"name": "Lone Oak Farm Brewing Company",
@@ -157,7 +165,8 @@
 		"types": ["craft_brewery"],
 		"store_url": "https://www.toasttab.com/loneoakbrewingco",
 		"open_status": "open",
-		"food": true
+		"food": true,
+		"pets": "Dogs allowed. Must be on leash"
 	},
 	{
 		"name": "Mano Negra Beer Company",
@@ -169,7 +178,8 @@
 		"untappd_url": "http://www.untappd.com/manonegrabeerco",
 		"types": ["craft_brewery"],
 		"store_url": "https://store.manonegrabeer.com/",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "No policy listed"
 	},
 	{
 		"name": "Saints Row Brewing",
@@ -187,7 +197,8 @@
 		"brewerydb_url": "http://www.brewerydb.com/brewery/Au2Cps",
 		"types": ["craft_brewery"],
 		"store_url": "https://www.saintsrowbeer.com/beerstogo",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Dogs allowed. Must be on leash"
 	},
 	{
 		"name": "Silver Branch Brewing Company",
@@ -206,7 +217,8 @@
 		"types": ["craft_brewery"],
 		"store_url": "https://www.silverbranchbrewing.com/store/",
 		"open_status": "open",
-		"food": true
+		"food": true,
+		"pets": "No policy listed"
 	},
 	{
 		"name": "True Respite Brewing Company",
@@ -226,7 +238,8 @@
 		"brewerydb_url": "http://www.brewerydb.com/brewery/YaJOgR",
 		"types": ["craft_brewery"],
 		"store_url": "https://biermi.com/store/truerespite",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Dogs allowed outside only"
 	},
 	{
 		"name": "Waredaca Brewing Company",
@@ -247,7 +260,8 @@
 		"types": ["craft_brewery"],
 		"store_url": "https://www.orderwaredaca.com/s/shop",
 		"open_status": "open",
-		"food": true
+		"food": true,
+		"pets": "Dogs allowed. Must be on leash"
 	},
 	{
 		"name": "Rock Bottom",
@@ -267,7 +281,8 @@
 		"brewerydb_url": "https://www.brewerydb.com/brewery/D1UQzj",
 		"types": ["chain_brewery"],
 		"store_url": "https://rockbottom.olo.com",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Dogs allowed outside only"
 	},
 	{
 		"name": "Selva Brewing Company",
@@ -282,7 +297,8 @@
 			"Location formerly <em>Greene Growlers</em>",
 			"Location formerly <em>Growlers</em>",
 			"Location Formerly <em>Summit Station</em>"
-		]
+		],
+		"pets": "No policy listed"
 	},
 	{
 		"name": "Two Story Chimney Ciderworks",
@@ -295,7 +311,8 @@
 		"yelp_url": "https://www.yelp.com/biz/two-story-chimney-ciderworks-gaithersburg",
 		"untappd_url": "https://untappd.com/TwoStoryChimneyCiderworks",
 		"types": ["craft_brewery"],
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Dogs allowed outside only"
 	},
 	{
 		"name": "Gilly's Craft Beer and Fine Wine",
@@ -315,7 +332,8 @@
 		"store_url": "https://www.gillyscbfw.com/order-online",
 		"open_status": "open",
 		"food": true,
-		"drink_on_premise": true
+		"drink_on_premise": true,
+		"pets": "Dogs allowed."
 	},
 	{
 		"name": "Downtown Crown Wine and Beer",
@@ -335,7 +353,8 @@
 		"store_url": "https://www.downtowncrownwinestore.com/s/shop",
 		"open_status": "open",
 		"food": false,
-		"drink_on_premise": true
+		"drink_on_premise": true,
+		"pets": "No policy listed"
 	},
 	{
 		"name": "Brew Belly",
@@ -353,7 +372,8 @@
 		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/54936/",
 		"types": ["restaurant"],
 		"store_url": "https://order.tbdine.com/pickup/15195",
-		"open_status": "open"
+		"open_status": "open",
+		"pets": "Dogs allowed outside only"
 	},
 	{
 		"name": "Black Viking Brewing",
@@ -364,7 +384,8 @@
 		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/62146/",
 		"types": ["craft_brewery"],
 		"open_status": "Distribution Only",
-		"drink_on_premise": false
+		"drink_on_premise": false,
+		"pets": "No policy listed"
 	},
 	{
 		"name": "Landmade Brewing",
@@ -380,7 +401,8 @@
 		"store_url": "https://www.landmadebeer.com/shop",
 		"open_status": "open",
 		"food": true,
-		"drink_on_premise": true
+		"drink_on_premise": true,
+		"pets": "Dogs allowed. Must be on leash"
 	},
 	{
 		"name": "Babycat Brewery",
@@ -396,6 +418,6 @@
 		"open_status": "open",
 		"food": true,
 		"drink_on_premise": true,
-		"pets": "outside"
+		"pets": "Dogs allowed outside only"
 	}
 ]
