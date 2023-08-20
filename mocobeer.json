@@ -21,23 +21,6 @@
 		"notes": []
 	},
 	{
-		"name": "Bright Spot Beer Company",
-		"slug": "bright_spot",
-		"website": "https://truerespite.com",
-		"twitter_handle": "brightspotbeer",
-		"facebook_url": "https://www.facebook.com/brightspotbeer/",
-		"instagram_handle": "brightspotbeerco",
-		"untappd_url": "https://twitter.com/brightspotbeer",
-		"ratebeer_url": "https://www.ratebeer.com/Ratings/Beer/ShowBrewer.asp?BrewerID=36072",
-		"types": ["craft_brewery"],
-		"store_url": "https://biermi.com/store/truerespite/store",
-		"open_status": "open",
-		"notes": [
-			"Subsidiary of <a href=\"#true_respite\">True Respite Beer Company</a>.",
-			"Formerly <em>Brawling Bear Brewing</em>."
-		]
-	},
-	{
 		"name": "Brookeville Beer Farm",
 		"google_maps_url": "https://goo.gl/maps/Dc3TaFo5yzw",
 		"address": "20315 Georgia Ave, Brookeville",
@@ -190,26 +173,6 @@
 		"store_url": "https://www.silverbranchbrewing.com/store/",
 		"open_status": "open",
 		"food": true
-	},
-	{
-		"name": "True Respite Brewing Company",
-		"google_maps_url": "https://goo.gl/maps/rbeCJF3kEBJ2",
-		"address": "7301 Calhoun Place #600, Derwood",
-		"phone_number": 3012848447,
-		"slug": "true_respite",
-		"website": "https://www.truerespite.com/",
-		"twitter_handle": "truerespite",
-		"facebook_url": "https://www.facebook.com/truerespite",
-		"instagram_handle": "truerespite",
-		"yelp_url": "https://www.yelp.com/biz/true-respite-brewing-company-derwood",
-		"trip_advisor_url": "https://www.tripadvisor.com/Attraction_Review-g41111-d14131705-Reviews-True_Respite_Brewing_Company-Derwood_Montgomery_County_Maryland.html",
-		"untappd_url": "https://untappd.com/truerespite",
-		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/52397/",
-		"ratebeer_url": "https://www.ratebeer.com/p/true-respite-brewing-company/78239/",
-		"brewerydb_url": "http://www.brewerydb.com/brewery/YaJOgR",
-		"types": ["craft_brewery"],
-		"store_url": "https://biermi.com/store/truerespite",
-		"open_status": "open"
 	},
 	{
 		"name": "Waredaca Brewing Company",
