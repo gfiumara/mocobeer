@@ -52,9 +52,9 @@ google_map = '''		<section>
 '''
 
 footer = f'''		<footer>
-			<hr />
-			Made and <a href="https://github.com/gfiumara/mocobeer">open sourced</a> in Gaithersburg by <a href="https://gregfiumara.com">Greg Fiumara</a> and <a href="https://github.com/gfiumara/mocobeer/contributors">contributors</a>.<br />
-			Last updated on {datetime.now().strftime("%d %B %Y at %I:%M:%S %p")}.<br />
+			<hr>
+			Made and <a href="https://github.com/gfiumara/mocobeer">open sourced</a> in Gaithersburg by <a href="https://gregfiumara.com">Greg Fiumara</a> and <a href="https://github.com/gfiumara/mocobeer/contributors">contributors</a>.<br>
+			Last updated on {datetime.now().strftime("%d %B %Y at %I:%M:%S %p")}.<br>
 			&copy; 2018&ndash;2022 <a href="https://gregfiumara.com">Greg Fiumara</a>. <a href="LICENSE">License</a>.
 		</footer>
 	</body>
@@ -150,28 +150,28 @@ def html_for_location(location):
 		if key("website") is not None:
 			i, s = add_field(i, s, f'<a href="{key("website")}" class="social website">Website</a>')
 		if key("twitter_handle") is not None:
-			i, s = add_field(i, s, f'<a href="https://twitter.com/{key("twitter_handle")}" class="social twitter"><img src="logos/x.svg" alt="X (Twitter) Logo" class="invert" /> X (Twitter)</a>')
+			i, s = add_field(i, s, f'<a href="https://twitter.com/{key("twitter_handle")}" class="social twitter"><img src="logos/x.svg" alt="X (Twitter) Logo" class="invert"> X (Twitter)</a>')
 		if key("facebook_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("facebook_url")}" class="social facebook"><img src="logos/facebook.svg" alt="Facebook Logo" /> Facebook</a>')
+			i, s = add_field(i, s, f'<a href="{key("facebook_url")}" class="social facebook"><img src="logos/facebook.svg" alt="Facebook Logo"> Facebook</a>')
 		if key("facebook_url") is not None:
-			i, s = add_field(i, s, f'<a href="https://instagram.com/{key("instagram_handle")}" class="social instagram"><img src="logos/instagram.svg" alt="Instagram Logo" class="invert" /> Instagram</a>')
+			i, s = add_field(i, s, f'<a href="https://instagram.com/{key("instagram_handle")}" class="social instagram"><img src="logos/instagram.svg" alt="Instagram Logo" class="invert"> Instagram</a>')
 		if key("yelp_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("yelp_url")}" class="social yelp"><img src="logos/yelp.svg" alt="Yelp Logo" /> Yelp</a>')
+			i, s = add_field(i, s, f'<a href="{key("yelp_url")}" class="social yelp"><img src="logos/yelp.svg" alt="Yelp Logo"> Yelp</a>')
 		if key("trip_advisor_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("trip_advisor_url")}" class="social trip_advisor"><img src="logos/trip_advisor.svg" alt="Trip Advisor Logo" class="invert" /> Trip Advisor</a>')
+			i, s = add_field(i, s, f'<a href="{key("trip_advisor_url")}" class="social trip_advisor"><img src="logos/trip_advisor.svg" alt="Trip Advisor Logo" class="invert"> Trip Advisor</a>')
 		i, s = end_section(i, s)
 
 	# Beer info
 	if contains_keys(location, beer_keys):
 		i, s = begin_section(i, s)
 		if key("untappd_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("untappd_url")}" class="social untappd"><img src="logos/untappd.svg" alt="Untappd Logo" /> Untappd</a>')
+			i, s = add_field(i, s, f'<a href="{key("untappd_url")}" class="social untappd"><img src="logos/untappd.svg" alt="Untappd Logo"> Untappd</a>')
 		if key("beer_advocate_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("beer_advocate_url")}" class="social beer_advocate"><img src="logos/beer_advocate.png" srcset="logos/beer_advocate.png 1x, logos/beer_advocate@2x.png 2x" alt="Beer Advocate Logo" /> Beer Advocate</a>')
+			i, s = add_field(i, s, f'<a href="{key("beer_advocate_url")}" class="social beer_advocate"><img src="logos/beer_advocate.png" srcset="logos/beer_advocate.png 1x, logos/beer_advocate@2x.png 2x" alt="Beer Advocate Logo"> Beer Advocate</a>')
 		if key("ratebeer_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("ratebeer_url")}" class="social ratebeer"><img src="logos/ratebeer.svg" alt="RateBeer Logo" /> RateBeer</a>')
+			i, s = add_field(i, s, f'<a href="{key("ratebeer_url")}" class="social ratebeer"><img src="logos/ratebeer.svg" alt="RateBeer Logo"> RateBeer</a>')
 		if key("brewerydb_url") is not None:
-			i, s = add_field(i, s, f'<a href="{key("brewerydb_url")}" class="social brewerydb"><img src="logos/brewerydb.png" srcset="logos/brewerydb.png 1x, logos/brewerydb@2x.png 2x" alt="BreweryDB Logo" /> BreweryDB</a>')
+			i, s = add_field(i, s, f'<a href="{key("brewerydb_url")}" class="social brewerydb"><img src="logos/brewerydb.png" srcset="logos/brewerydb.png 1x, logos/brewerydb@2x.png 2x" alt="BreweryDB Logo"> BreweryDB</a>')
 		i, s = end_section(i, s)
 
 	# Online store
