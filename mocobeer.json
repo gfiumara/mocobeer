@@ -106,7 +106,8 @@
 		"ratebeer_url": "https://www.ratebeer.com/brewers/elder-pine-brewing-and-blending-co/38062/",
 		"types": ["craft_brewery"],
 		"store_url": "https://elderpine.square.site/",
-		"open_status": "open"
+		"open_status": "open",
+		food: true
 	},
 	{
 		"name": "Lone Oak Farm Brewing Company",
