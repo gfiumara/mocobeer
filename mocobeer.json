@@ -107,7 +107,7 @@
 		"types": ["craft_brewery"],
 		"store_url": "https://elderpine.square.site/",
 		"open_status": "open",
-		food: true
+		"food": true
 	},
 	{
 		"name": "Lone Oak Farm Brewing Company",
