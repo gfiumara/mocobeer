@@ -21,23 +21,6 @@
 		"notes": []
 	},
 	{
-		"name": "Astro Lab Brewing",
-		"google_maps_url": "https://goo.gl/maps/8k7NW2PP6A12",
-		"address": "8216 Georgia Ave, Silver Spring, MD 20910",
-		"slug": "astro_lab",
-		"website": "https://www.astrolabbrewing.com",
-		"twitter_handle": "AstroLabBrewing",
-		"facebook_url": "https://www.facebook.com/astrolabbrewing/",
-		"instagram_handle": "AstroLabBrewing",
-		"yelp_url": "https://www.yelp.com/biz/astro-lab-brewing-silver-spring",
-		"untappd_url": "https://untappd.com/AstroLabBrewing",
-		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/54237/",
-		"ratebeer_url": "https://www.ratebeer.com/p/astro-lab-brewing/83131/",
-		"types": ["craft_brewery"],
-		"store_url": "https://www.toasttab.com/astrolabbrewing",
-		"open_status": "open"
-	},
-	{
 		"name": "Bright Spot Beer Company",
 		"slug": "bright_spot",
 		"website": "https://truerespite.com",
