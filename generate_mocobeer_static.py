@@ -150,7 +150,7 @@ def html_for_location(location):
 		if key("website") is not None:
 			i, s = add_field(i, s, f'<a href="{key("website")}" class="social website">Website</a>')
 		if key("twitter_handle") is not None:
-			i, s = add_field(i, s, f'<a href="https://twitter.com/{key("twitter_handle")}" class="social twitter"><img src="logos/twitter.svg" alt="Twitter Logo" /> Twitter</a>')
+			i, s = add_field(i, s, f'<a href="https://twitter.com/{key("twitter_handle")}" class="social twitter"><img src="logos/x.svg" alt="X (Twitter) Logo" class="invert" /> X (Twitter)</a>')
 		if key("facebook_url") is not None:
 			i, s = add_field(i, s, f'<a href="{key("facebook_url")}" class="social facebook"><img src="logos/facebook.svg" alt="Facebook Logo" /> Facebook</a>')
 		if key("facebook_url") is not None:
