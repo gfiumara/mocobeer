@@ -175,6 +175,25 @@
 		"food": true
 	},
 	{
+		"name": "Third Hill Brewing Company",
+		"google_maps_url": "",
+		"address": "8216 Georgia Avenue, Silver Spring",
+		"phone_number": 3013261186,
+		"slug": "thirdhillbrewing",
+		"website": "https://www.thirdhillbrewing.com",
+		"twitter_handle": "thirdhillbrew",
+		"facebook_url": "https://www.facebook.com/ThirdHillBrewing/",
+		"instagram_handle": "thirdhillbrewing",
+		"yelp_url": "https://www.yelp.com/biz/third-hill-brewing-silver-spring-2",
+		"untappd_url": "https://untappd.com/ThirdHillBrewingCo",
+		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/65980/",
+		"types": ["craft_brewery"],
+		"store_url": "https://www.thirdhillbrewing.com/shop/",
+		"open_status": "open",
+		"food": true,
+		"drink_on_premise": true
+	},
+	{
 		"name": "Waredaca Brewing Company",
 		"google_maps_url": "https://goo.gl/maps/mK6qtpNJBL22",
 		"address": "4017 Damascus Road, Laytonsville",
