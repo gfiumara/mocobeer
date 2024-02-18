@@ -176,6 +176,24 @@
 		"food": true
 	},
 	{
+		"name": "Stone Silo Brewery",
+		"google_maps_url": "https://maps.app.goo.gl/NPykDcPcJfNQ7yAg9",
+		"address": "28800 Kemptown Road, Damascus, MD 20872",
+		"phone_number": 3012563118,
+		"slug": "stone_silo",
+		"website": "https://stonesilobrewery.com/",
+		"facebook_url": "https://www.facebook.com/profile.php?id=61555503208051",
+		"instagram_handle": "stonesilobrewery",
+		"yelp_url": "https://www.yelp.com/biz/stone-silo-brewing-damascus",
+		"trip_advisor_url": "",
+		"untappd_url": "https://untappd.com/w/stone-silo-brewery/554112",
+		"types": ["craft_brewery"],
+		"open_status": "open",
+		"food": true,
+		"drink_on_premise": true,
+		"notes": []
+	},
+	{
 		"name": "Third Hill Brewing Company",
 		"google_maps_url": "",
 		"address": "8216 Georgia Avenue, Silver Spring",
