@@ -142,6 +142,7 @@
 		"name": "Saints Row Brewing",
 		"google_maps_url": "https://goo.gl/maps/Rc2BbmLucKKaU7AX9",
 		"address": "15 Fulks Corner Ave, Suite 101, Gaithersburg, MD 20877",
+		"phone_number": 2407566454,
 		"slug": "saints_row",
 		"website": "https://www.saintsrowbeer.com",
 		"twitter_handle": "saintsrowbeer",
@@ -153,7 +154,6 @@
 		"ratebeer_url": "https://www.ratebeer.com/brewers/saints-row-brewing-company/36478/",
 		"brewerydb_url": "http://www.brewerydb.com/brewery/Au2Cps",
 		"types": ["craft_brewery"],
-		"store_url": "https://www.saintsrowbeer.com/beerstogo",
 		"open_status": "open"
 	},
 	{
