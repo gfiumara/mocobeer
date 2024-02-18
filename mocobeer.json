@@ -367,6 +367,22 @@
 		"drink_on_premise": true
 	},
 	{
+		"name": "Yard House",
+		"google_maps_url": "https://maps.app.goo.gl/uHCWUi9AVD5TZZ7U7",
+		"address": "211 Rio Blvd, Gaithersburg, MD 20878",
+		"phone_number": 2406838790,
+		"slug": "yard_house",
+		"website": "https://www.yardhouse.com/locations/md/gaithersburg/gaithersburg-rio-washingtonian/8380",
+		"yelp_url": "https://www.yelp.com/biz/yard-house-gaithersburg-2",
+		"trip_advisor_url": "https://www.tripadvisor.com/Restaurant_Review-g41154-d15614578-Reviews-Yard_House-Gaithersburg_Montgomery_County_Maryland.html",
+		"untappd_url": "https://untappd.com/v/yard-house-gaithersburg-rio-washingtonian/8492000",
+		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/55247/",
+		"types": ["bar"],
+		"open_status": "open",
+		"food": true,
+		"drink_on_premise": true
+	},
+	{
 		"name": "Babycat Brewery",
 		"google_maps_url": "https://goo.gl/maps/TqBnb8rhx975eu649",
 		"address": "10241 Kensington Pkwy, Kensington, MD 20895",
