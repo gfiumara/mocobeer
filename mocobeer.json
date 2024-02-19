@@ -260,14 +260,34 @@
 		"name": "Two Story Chimney Ciderworks",
 		"google_maps_url": "https://goo.gl/maps/yF3zcZhc3x8tKrFf9",
 		"address": "7115 Damascus Rd, Gaithersburg, MD 20882",
+		"phone_number": 2407455390,
 		"slug": "two_story_chimney",
-		"website": "http://twostorychimney.com",
+		"website": "https://twostorychimney.com",
 		"facebook_url": "https://www.facebook.com/twostorychimney/",
 		"instagram_handle": "twostorychimney",
 		"yelp_url": "https://www.yelp.com/biz/two-story-chimney-ciderworks-gaithersburg",
 		"untappd_url": "https://untappd.com/TwoStoryChimneyCiderworks",
 		"types": ["craft_brewery"],
-		"open_status": "open"
+		"open_status": "open",
+		"notes": [
+			"Same location as <a href=\"#silly_yak\">Silly Yak Beer</a></em>"
+		]
+	},
+	{
+		"name": "Silly Yak Beer",
+		"google_maps_url": "https://goo.gl/maps/yF3zcZhc3x8tKrFf9",
+		"address": "7115 Damascus Rd, Gaithersburg, MD 20882",
+		"phone_number": 2407455390,
+		"slug": "silly_yak",
+		"website": "https://sillyyakbeer.com/",
+		"facebook_url": "https://www.facebook.com/p/Silly-Yak-Beer-Company-100086265915061/",
+		"instagram_handle": "sillyyakbeer",
+		"untappd_url": "https://untappd.com/w/silly-yak-beer-company/535977",
+		"types": ["craft_brewery"],
+		"open_status": "open",
+		"notes": [
+			"Same location as <a href=\"#two_story_chimney\">Two Story Chimney Ciderworks</a></em>"
+		]
 	},
 	{
 		"name": "Gilly's Craft Beer and Fine Wine",
