@@ -55,7 +55,7 @@ footer = f'''		<footer>
 			<hr>
 			Made and <a href="https://github.com/gfiumara/mocobeer">open sourced</a> in Gaithersburg by <a href="https://gregfiumara.com">Greg Fiumara</a> and <a href="https://github.com/gfiumara/mocobeer/contributors">contributors</a>.<br>
 			Last updated on {datetime.now().strftime("%d %B %Y at %I:%M:%S %p")}.<br>
-			&copy; 2018&ndash;2022 <a href="https://gregfiumara.com">Greg Fiumara</a>. <a href="LICENSE">License</a>.
+			&copy; 2018&ndash;{datetime.now().year} <a href="https://gregfiumara.com">Greg Fiumara</a>. <a href="LICENSE">License</a>.
 		</footer>
 	</body>
 </html>
