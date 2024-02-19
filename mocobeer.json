@@ -127,18 +127,6 @@
 		"food": true
 	},
 	{
-		"name": "Mano Negra Beer Company",
-		"slug": "mano_negra",
-		"website": "https://www.manonegrabeer.com",
-		"twitter_handle": "manonegrabeerco",
-		"facebook_url": "https://www.facebook.com/manonegrabeerco",
-		"instagram_handle": "manonegrabeerco",
-		"untappd_url": "http://www.untappd.com/manonegrabeerco",
-		"types": ["craft_brewery"],
-		"store_url": "https://store.manonegrabeer.com/",
-		"open_status": "open"
-	},
-	{
 		"name": "Saints Row Brewing",
 		"google_maps_url": "https://goo.gl/maps/Rc2BbmLucKKaU7AX9",
 		"address": "15 Fulks Corner Ave, Suite 101, Gaithersburg, MD 20877",
