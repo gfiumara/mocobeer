@@ -377,22 +377,6 @@
 		"drink_on_premise": false
 	},
 	{
-		"name": "Landmade Brewing",
-		"google_maps_url": "https://goo.gl/maps/pcE6Gm4JiCoXYyMr9",
-		"address": "19124 Jerusalem Rd, Poolesville, MD 20837",
-		"phone_number": 3016857139,
-		"slug": "landmade",
-		"website": "https://www.landmadebeer.com",
-		"facebook_url": "https://www.facebook.com/landmadebeer",
-		"instagram_handle": "landmadebeer",
-		"untappd_url": "https://untappd.com/w/landmade-brewing/516064",
-		"types": ["craft_brewery"],
-		"store_url": "https://www.landmadebeer.com/shop",
-		"open_status": "open",
-		"food": true,
-		"drink_on_premise": true
-	},
-	{
 		"name": "Yard House",
 		"google_maps_url": "https://maps.app.goo.gl/uHCWUi9AVD5TZZ7U7",
 		"address": "211 Rio Blvd, Gaithersburg, MD 20878",
