@@ -176,7 +176,7 @@
 		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/55589/",
 		"ratebeer_url": "https://www.ratebeer.com/brewers/silver-branch-brewing-company/39074/",
 		"types": ["craft_brewery_in_planning"],
-		"open_status": "open",
+		"open_status": "open"
 	},
 	{
 		"name": "Stone Silo Brewery",
