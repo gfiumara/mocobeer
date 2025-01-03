@@ -145,7 +145,7 @@
 		"open_status": "open"
 	},
 	{
-		"name": "Silver Branch Brewing Company",
+		"name": "Silver Branch Brewing Company (Lagerhaus & Biergarten)",
 		"google_maps_url": "https://goo.gl/maps/MFy841DxsN12",
 		"address": "8401 Colesville Rd #150, Silver Spring",
 		"slug": "silver_branch",
@@ -162,6 +162,21 @@
 		"store_url": "https://www.silverbranchbrewing.com/store/",
 		"open_status": "open",
 		"food": true
+	},
+	{
+		"name": "Silver Branch Brewing Company (Rockville Beerworks)",
+		"google_maps_url": "https://maps.app.goo.gl/4xuTaStcMX8uSGzT7",
+		"address": "7301 Calhoun Place, Derwood",
+		"slug": "silver_branch",
+		"website": "https://www.silverbranchbrewing.com",
+		"twitter_handle": "silverbranchus",
+		"facebook_url": "https://www.facebook.com/silverbranchrockville",
+		"instagram_handle": "silverbranchus",
+		"untappd_url": "https://untappd.com/silverbranch",
+		"beer_advocate_url": "https://www.beeradvocate.com/beer/profile/55589/",
+		"ratebeer_url": "https://www.ratebeer.com/brewers/silver-branch-brewing-company/39074/",
+		"types": ["craft_brewery_in_planning"],
+		"open_status": "open",
 	},
 	{
 		"name": "Stone Silo Brewery",
